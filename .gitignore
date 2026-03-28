@@ -1,0 +1,34 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.dpth
+*.md5
+*.auxlock
+
+# LaTeX by-products
+*.dvi
+*.ps
+*.eps
+
+# Build outputs (optional - uncomment if you want to ignore PDFs)
+# *.pdf
+
+# Editor backup files
+*~
+*.bak
+*.swp
+*.swo
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+__pycache__/
+*.pyc
