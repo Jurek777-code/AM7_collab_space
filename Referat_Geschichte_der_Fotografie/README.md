@@ -5,6 +5,8 @@ This is a collaborative project about the history of photography (Referat Geschi
 ## Project Structure
 
 - `Referat_Geschichte_der_Fotografie/` - Main project folder
+- `Referat_Geschichte_der_Fotografie/Notes/` - Folder for notes and research materials
+- `Referat_Geschichte_der_Fotografie/Presentation/` - Folder for presentation slides
 
 ## Getting Started
 
