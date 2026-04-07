@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Keep directory traversal possible for un-ignoring files
+!*/
+
+# Keep this file tracked
+!.gitignore
+
+# Allow all PDF files anywhere in the repository
+!*.pdf
