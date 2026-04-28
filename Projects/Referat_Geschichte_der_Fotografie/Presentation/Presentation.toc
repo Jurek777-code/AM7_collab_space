@@ -1,0 +1,10 @@
+\babel@toc {german}{}\relax 
+\beamer@sectionintoc {1}{Die Camera Obscura}{3}{0}{1}
+\beamer@sectionintoc {2}{Wie funktioniert die Camera Obscura}{4}{0}{2}
+\beamer@sectionintoc {3}{Geschichte Camera Obscura}{5}{0}{3}
+\beamer@sectionintoc {4}{Camera Obscura in der Kunst}{10}{0}{4}
+\beamer@sectionintoc {5}{Die ersten Bilder}{10}{0}{5}
+\beamer@sectionintoc {6}{Massenmedium Fotografie}{10}{0}{6}
+\beamer@sectionintoc {7}{Portraitfotografie und Inzinierung des 19. Jahrhunderts}{11}{0}{7}
+\beamer@sectionintoc {8}{Selbstbild vs. Fremdbild}{11}{0}{8}
+\beamer@sectionintoc {9}{Quellen}{11}{0}{9}

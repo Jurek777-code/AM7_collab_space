@@ -1,3 +1,0 @@
-# LaTeX Equation Writer Memory
-# This file is used by LatexEquationWriter.agent.md
-# Store validated LaTeX equations below.

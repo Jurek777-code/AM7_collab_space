@@ -1,0 +1,118 @@
+Camera Obscura & Vorläufer der Fotografie
+Geschichte: 
+- erste Entdeckung der pysikalische Eigenschaft 322 - 384 v- chr. Aristoteles
+- Erster Bekannter versuchaufbau
+
+Geschichte:
+- erste bekannte beschreibung: Mozi (322 - 384 v. Chr.)
+    - https://de.wikipedia.org/wiki/Datei:Camera.obscura.17.jh.jpg
+    - Mozi: Chinesischer Philosophen
+- erster versuch: von dem Mathematiker Alhazen um 980 n-Chr. 
+    - kein interesse an abilldungen von Individuen da bildverbot im islam 
+        - Bildverbot im islam:
+            - kommt aus der hadith literatur
+            - nicht im koran vorkommend
+            - aufgekommen 800 n-chr. 
+- erster nutzen der Camera obscura in der astronomi ( 1300 jh) zur beobachtung von sonnenfinsternissen
+- 1400 jh leonardo da vinci zusammenhang der funktionsweißen der kamera obscura und des auges
+- erste mobile kamera obscura im 17. jh
+    -mit einer mattscheibe zum abzeichnen der bilder
+
+Die Camera Obscura in der Kunst
+    - Giovanni Antonio Canal (Canaletto): Italinischer maler, 18.Jh, 
+    - Bernardo Bellotto: Neffe von Canal, Italinischer maler, 18. Jh
+    (ab hier nur eine teorie)
+    - Verdachsfall Leonardo da Vinci
+    - Verdachsfall bei Vermeer, (17. Jh), Bekannt für "Das Mädchen mit dem Perlenohrring"
+- Woran man das anscheinend erkennt nach dem Künstler David Hockney
+    - Mehrfache Fluchtpunkte durch verschieben der Linse
+    - Zu detailierte stofffaltenwurf
+    - Verschwomene Tiefenschärfe
+        -Bokeh-Effekt
+        - Da frühere linsen noch nicht gut Tiefenschärfe darstellen konnten
+    - auftretende Linkshändigkeit
+        - durch nutzen von linsen (ab 1590) ist das bild nicht
+         nur von oben nach untern verkährt sondern auch von links
+          nach rechts was azu führt das viele menschen die in den vermeintlich 
+          gezeichneten bildern linkshänder darstellen 
+    
+Bild Canaletto:
+- Name: Der eingang zum Großen Kanal, Venedig
+- Canaletto hat bekannterweiße mit der camera obscura gearbeitet
+- Genutzt um komplexe dinge darzustellen, Architektur, Menschen, usw.
+- Bild: 
+
+Bild Bernardo Bellotto
+- Name: Warschau, von der Terrasse des Königsschlosses aus betrachtet (Ausschnitt) (1773)
+- auch bekannterweiße mit der obscura gearbeitet
+- übernommen von Canaletto
+- bild nach dem 2. weltkieg genutzt für wiederaufbau
+
+Bild Vermeer:
+- Bild "Girl with a red Hat"
+- man erkennt anscheinend theorie an verschwommener tiefe in den SToffen im vordergrund des Bildes
+
+
+
+
+
+
+
+Die Erfindung der Fotografie (Daguerre, Talbot) 
+- 1826 gelang es Joseph Nicéphore Niépce mit einer Camera obscura im Heliografie-Verfahren die erste bekannte und bis heute erhaltene Fotografie La cour du domaine du Gras zu erzeugen.
+- Kapitalistischer einfluss auf photograthie
+    - Fall der profisionellen bilder
+    - Oft mit Atrapen und requisiten genutzt uim falsches bild der realität darzustellen
+    - Bild Kafka als Kind: https://de.wikipedia.org/wiki/Datei:Photograph_of_Franz_Kafka_9.jpg
+
+Folie 12: Die ersten prägenden Fotografinnen und Fotograthen
+- David Octavius Hill (1802–1870)
+    - Schottischer Künstler
+    - 
+- Julia Margaret Cameron (1815–1879)
+- Nadar (1820–1910)
+
+Folie 13: Bild Hill
+- Name: The Misses Grierson
+- Zeit: 1845
+- Bild: Referat_Geschichte_der_Fotografie/Notes/Bilder/TheMissesGrierson.avif
+
+Folie 14: Bild Cameron
+- Name: Cameron Julia Jackson
+- Zeit: 1867
+- Bild: Referat_Geschichte_der_Fotografie/Notes/Bilder/Cameron_Julia_Jackson2.jpg
+
+Folie 15: Bild Nadar
+- Name: pierrot climbing through a window
+- Zeit: 1854/1855
+- Bild: Referat_Geschichte_der_Fotografie/Notes/Bilder/pierrot-climbing-through-a-window-1854-1855-by-nadar.jpg!PinterestSmall.jpg
+
+
+Quellen:
+https://de.wikipedia.org/wiki/Camera_obscura
+https://de.wikipedia.org/wiki/Bilderverbot_im_Islam#Weblinks
+https://de.wikipedia.org/wiki/Blick_aus_dem_Arbeitszimmer_von_Le_Gras
+
+Kamera Obscura in der Kunst: https://lensbaby-com.translate.goog/blogs/creative-photography/artists-using-obscura?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de&_x_tr_pto=sge#:~:text=A%20famous%20artist%2C%20said%20to,of%20his%20most%20famous%20paintings.
+
+https://willmoneymaker.com/blog/2016/1/the-camera-obscura-modern-photographys-first-ancestor
+
+https://melbournecameraclub.org.au/wp-content/uploads/2020/07/Benjamin_Walter_1931_1972_A_Short_History_of_Photography.pdf
+
+https://www.artic.edu/artists/34934/david-octavius-hill
+https://www.nationalgalleries.org/art-and-artists/artists/david-octavius-hill
+https://artinwords.de/julia-margaret-cameron/
+https://www.metmuseum.org/art/collection/search/267426
+https://www.photobibliothek.ch/seite007s.html
+
+Bildquellen: 
+- https://de.wikipedia.org/wiki/Datei:Canaletto_-_The_Entrance_to_the_Grand_Canal,_Venice_-_Google_Art_Project.jpg
+- https://de.wikipedia.org/wiki/Datei:Vermeer_-_Girl_with_a_Red_Hat.JPG
+- http://de.wikipedia.org/wiki/Jan_Vermeer#/media/Datei:1665_Girl_with_a_Pearl_Earring.jpg
+- https://de.wikipedia.org/wiki/Bernardo_Bellotto#/media/Datei:Bernardo_Bellotto,_Widok_Warszawy_z_tarasu_Zamku_Kr%C3%B3lewskiego_-_03.jpg
+
+- https://de.wikipedia.org/wiki/Joseph_Nic%C3%A9phore_Ni%C3%A9pce#/media/Datei:Point_de_vue_du_Gras_by_Ni%C3%A9pce,_1826.jpg
+
+- https://artic-web.imgix.net/null2b7d39b1-e8cc-4790-b72b-6e0ef35df670/TheMissesGrierson.jpg?rect=0%2C0%2C2136%2C3000&auto=format%2Ccompress&q=80&fit=crop&crop=faces%2Ccenter&w=1500&h=2107
+- https://artinwords.de/wp-content/uploads/julia-margaret-cameron/Cameron_Julia_Jackson2.jpg
+- https://uploads0.wikiart.org/00335/images/nadar/pierrot-climbing-through-a-window-1854-1855-by-nadar.jpg!PinterestSmall.jpg

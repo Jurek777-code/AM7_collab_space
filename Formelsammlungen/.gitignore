@@ -1,31 +1,12 @@
-# Ignore LaTeX source and auxiliary files in this folder and subfolders
-# Keep final PDFs
+# Ignore everything in this folder tree except PDFs.
+*
 
-# LaTeX source files
-*.tex
-*.sty
-*.cls
-*.bib
+# Allow Git to traverse subdirectories.
+!*/
 
-# Auxiliary / build files
-*.aux
-*.log
-*.out
-*.toc
-*.lot
-*.lof
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.nav
-*.snm
-*.idx
-*.ilg
-*.ind
+# Keep the ignore file tracked.
+!.gitignore
 
-# Common build scripts
-Makefile
-QUICKSTART.sh
-
-# Do not ignore PDFs (final artifacts)
+# Allow PDF files everywhere under Formelsammlungen/.
 !*.pdf
+Formelsammlungen/.github/agents/
