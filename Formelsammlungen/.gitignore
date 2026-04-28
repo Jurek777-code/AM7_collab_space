@@ -1,11 +1,31 @@
-# Ignore everything by default
-*
+# Ignore LaTeX source and auxiliary files in this folder and subfolders
+# Keep final PDFs
 
-# Keep directory traversal possible for un-ignoring files
-!*/
+# LaTeX source files
+*.tex
+*.sty
+*.cls
+*.bib
 
-# Keep this file tracked
-!.gitignore
+# Auxiliary / build files
+*.aux
+*.log
+*.out
+*.toc
+*.lot
+*.lof
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.idx
+*.ilg
+*.ind
 
-# Allow all PDF files anywhere in the repository
+# Common build scripts
+Makefile
+QUICKSTART.sh
+
+# Do not ignore PDFs (final artifacts)
 !*.pdf
