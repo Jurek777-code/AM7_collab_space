@@ -1,0 +1,1883 @@
+Skript für 221019 Grundlagen Naturwissenschaft/Technik (GNT)
+
+
+
+
+221019a Physik,
+221019b Elektrotechnik
+
+
+Im Wintersemester 2023/24 werden beide Vorlesungen (Physik und
+Elektrotechnik) des Moduls GNT erstmalig von einem Dozenten ge-
+halten. Dieses Skript liegt hier in seiner ersten Fassung vor, deshalb
+sind Fehler nicht auszuschließen. Folgen Sie der Vorlesung auf-
+merksam, um von eventuelle Korrekturen zu ergänzen.
+
+
+
+
+         MANUSKRIPT
+         JOHANNES SCHAUGG
+         VERSION 1.0, HERBST 2023
+Inhalt
+B1 Einleitung und klassische Mechanik 1 Wissenschaftstheorie,
+Galilei, Fallgesetze, Newtonsche Axiome, Potentiale         1
+Vorwort                                                                   1
+Leistungsnachweis                                                         1
+1.      Einleitung                                                        2
+     1.1.   Was ist Physik? Was ist Elektrotechnik?                       2
+     1.2.   Was ist Bildung?                                              3
+     1.3.   Wissenschaftstheorie – Theorie der Theorie                    3
+     1.4.   Pseudowissenschaft und Wissenschaftsleugnung                  8
+     1.5.   Wissenschaftliche Programme                                  11
+2.      Klassische Mechanik                                               1
+     2.1.   Galileo Galilei (1564–1641) berechnet Bewegungen              1
+     2.2.   Der freie Fall                                                5
+     2.3.   Trägheitssatz                                                 8
+     2.4.   Isaac Newton (1643–1727) berechnet Kräfte                    10
+     2.5.   Newtons Axiome                                               12
+     2.6.   Newtons Gravitationsgesetz                                   16
+     2.7.   Gravitationsfeld: Potentielle Energie und Potential          17
+B2 Klassische Mechanik 2 Hamiltonsches Prinzip, Lagrange
+Formalismus und Erhaltungsgrößen in der Mechanik         21
+     2.8.   Hamiltonsches Prinzip                                        21
+     2.9.   Lagrange-Funktion L (Lagrangian)                             23
+     2.10. Euler-Lagrange-Gleichung                                      24
+     2.11. Erhaltungsgrößen in physikalischen Systemen                   27
+     2.12. Vergleich der Systeme von Newton und Hamilton-Lagrange am Bei-
+           spiel des Federpendels                                         29
+
+
+
+
+                                        Seite 2
+B1 Einleitung und klassische Mechanik 1
+Wissenschaftstheorie, Galilei, Fallgesetze, New-
+tonsche Axiome, Potentiale
+
+
+Vorwort
+Wir unternehmen eine Reise durch die Wissenschaft und Technik
+aus Sicht des Physikers. Wie bei jeder Reise wird es langweilige,
+spannende, überraschende und verrückte Momente geben.
+Die Bestandteile sind eine Vorlesung, die sich mit den theoretischen
+Grundlagen befasst, und praktische Aufgaben, die Sie bearbeiten
+und abgeben müssen.
+Anmerkung: Als Quellen sind sehr häu g diejenigen genannt, die
+leicht im Internet zu nden sind. Eigentlich wäre es besser, die je-
+weiligen Originalquellen anzugeben. Das würde aber erfordern,
+dass man zum Nachschlagen die Quellen in der Bibliothek suchen
+muss.
+
+
+Leistungsnachweis
+Details im Moodlekurs zu gegebner Zeit.
+Hausarbeiten     30 Punkte (2 kleine Hausarbeiten, je 15 Punkte)
+Anwesenheit      20 Punkte (Termine 4, 5, 6, 7, 8 ,9, 10, 11, 12, 13)
+Prüfung          50 Punkte (30.01.2024)
+
+
+
+
+                                Seite 1
+
+
+
+                           fi
+       fi
+     1.         Einleitung
+
+     1.1.       Was ist Physik? Was ist Elektrotechnik?
+      Physik
+      –> Naturwissenschaft, untersucht grundlegende Phänomene.
+      –> Materie und Energie, Wechselwirkungen in Raum und Zeit.
+      –> quantitativen Modellen über Eigenschaften und Verhalten.
+      Vorgehen:
+      –> Theorie raten,
+      –> Konsequenzen berechnen,
+      –> im Experiment die Theorie überprüfen.
+
+
+      Begri : “Physikalisches Gesetz” ist problematisch, s.u.
+
+
+      „(Geometrie und Arithmetik) reichen nicht weiter als bis zur
+      Kenntnis der kontinuierlichen und diskontinuierlichen Quanti-
+      tät, um die Qualität kümmern sie sich nicht, die ist aber die
+      Schönheit der Werke der Natur und die Zierde der Welt.“
+      Leonardo da Vinci (ca. 1495-1499)
+
+     Quelle1
+
+      Elektrotechnik
+      –> angewandte Wissenschaft / Ingenieurwissenschaft,
+      –> Forschung, Entwicklung, Konstruktion, Produktion, Prüfung,
+      –> Zusammenbau und Instandhaltung von Elektrogeräten,
+      –> Bindeglied zur Physik: Erkenntnisse aus der Elektrizitätslehre.
+
+
+
+
+     1 Chastel, André, Leonardo da Vinci, Schriften zur Malerei, Schirmer und Mosel, 1990, Teil 1, 1. Malerei
+     und Wissenschaft / (18), Seite 137
+                                                       Seite 2
+
+
+
+ff
+1.2.        Was ist Bildung?
+ „Bildung ist das, was übrig bleibt, wenn man alles vergessen hat,
+ was man gelernt hat.“
+ Werner Heisenberg, 1973, Zitat wird auch anderen zugeschrieben.
+ –> Mit Bildung sollte man bislang ungelöstes lösen können.
+
+Quelle2
+
+ Versuch einer De nition von Bildung:
+ Es ist die Frage, wie sehr das eigene Weltbild mit der “Wirklich-
+ keit” in Einklang steht. Wenn man Bildung als Maß verstehen
+ möchte, könnte man sagen, es ist die Fähigkeit ein Verständnis für
+ Zusammenhänge zu entwickeln.
+ Aber was ist die “Wirklichkeit”? Kann sie der Mensch erkennen?
+
+
+1.3.        Wissenschaftstheorie – Theorie der Theorie
+ Wissenschaftstheorie
+ Teilgebiet der Philosophie, das sich mit den Voraussetzungen,
+ Methoden und Zielen von Wissenschaft und ihrer Form der Er-
+ kenntnisgewinnung beschäftigt.
+
+Quellen3,4
+
+ Erkenntnistheorie
+ Teilgebiet der Philosophie, das sich mit der Frage nach den Be-
+ dingungen von begründetem Wissen befasst. Hier wird analysiert,
+ was Wissen zu wissenschaftlichem Wissen macht und welche Art
+ von Zweifel an welcher Art von Überzeugungen objektiv bestehen
+ kann.
+
+
+
+2 Werner Heisenberg in Schritte über Grenzen, Rede zur 100-Jahrfeier des Max-Gymnasiums, Piper 1973,
+
+S.106; in ähnlicher Form auch Albert Einstein, Mark Twain und Edward Wood, 1. Earl of Halifax zuge-
+schrieben.
+3 https://de.wikipedia.org/wiki/Wissenschaftstheorie, abgerufen 09.05.2019.
+
+4 Okasha, Samir (2016): Philosophy of Science. A Very Short Introduction. 2nd ed. Oxford: OUP.
+
+                                                Seite 3
+
+
+
+       fi
+Quelle5
+
+ Drei Arten des wissenschaftlichen Fortschritts
+ 1. Kumulativer Fortschritt:
+    Erweiterung des Wissens durch die Ansammlung von immer
+    mehr Wissen. „Älteres Wissen“ wird nicht über üssig.
+    Beispiel: Entdeckung immer neuer Arten in der Biologie.
+ 2. Substitutiver Fortschritt:
+    Neueres Wissen löst älteres Wissen ab. Man versteht Dinge
+    genauer/besser, ältere Erklärungen nicht mehr notwendig.
+    Beispiel: Vererbungslehre in der Biologie auf molekularer Basis
+    im Vergleich zu Mendel.
+ 3. Zirkulärer Fortschritt:
+    Erinnern nach längerer Zeit an frühere Erkenntnisse, die zwi-
+    schenzeitlich nicht relevant waren.
+    Beispiel: Riemansche Geometrie krummliniger Koordinaten,
+    1850. Erst wichtig für Allgemeine Relativitätstheorie, 1916
+ Praxis: Mischung dieser drei Arten wiss. Fortschritts.
+
+Quelle6
+
+ „Hard Science“ und „Soft Science“
+ „hart“: Naturwissenschaften Biologie, Chemie oder Physik
+ „weich“: Sozialwissenschaften, Psychologie, Soziologie.
+ Unterschied: In „weichen“ Wissenschaften Experimente nie unter
+ gleichen Rahmenbedingungen wiederholbar, in „harten“ Wissen-
+ schaften ist das möglich.
+
+Quelle7
+
+
+
+
+5 https://de.wikipedia.org/wiki/Erkenntnistheorie, abgerufen 07.10.2023
+
+6 Otmar Issing (Hrsg.). Geschichte der Nationalökonomie, Nomosverlag, 4. Au   age 2002
+7 https://en.wikipedia.org/wiki/Hard_and_soft_science, abgerufen am 02.11.2019
+
+                                                 Seite 4
+
+
+
+                                                           fl
+                                                  fl
+ Positive und normative Aussagen
+ Damit meint man in der Wissenschaftstheorie etwas anderes, als
+ das, was die Adjektive normalerweise bedeuten.
+ • Positive Aussagen: Realität beschreibend, nur Fakten nennend.
+ • Normative Aussagen: Werturteile in Aussagen ein ießen lassen.
+
+
+ Beispiel Positive und normative Aussagen:
+
+
+
+
+       Abbildung: Statistisches Bundesamt.
+ • Positiv: Lohn in Lettland 26 Euro niedriger als in Deutschland.
+ • Normativ:
+   –> Arbeitgeber: In Deutschland sind die Lohnkosten zu hoch.
+   –> Arbeitnehmer: In Lettland sind die Lohnkosten zu niedrig.
+
+Quelle8
+
+
+
+
+8 [https://www.destatis.de/DE/Presse/Pressemitteilungen/2018/05/PD18_172_624.html], abgerufen am
+
+26.067.2019
+                                              Seite 5
+
+
+
+                                                   fl
+ Beispiel 1: Amtseinführung von Donald Trump, 2017
+
+
+
+
+ Amtseinführung Obama, 2009 (li), Trump, 2017(re)
+ “It looked, honestly, it looked like a million and a half people,
+ … . But it went all the way back to the Washington Monument.”
+ Donald Trump, President of the United States (2017–2021)
+ “… [the ceremony had the] largest audience to ever witness an
+ inauguration – period …” – Sean Spicer, White House Press
+ Secretary, 21.01.2017
+ „Our press secretary, Sean Spicer, gave alternative facts to that,
+ but the point remains that …“ Kellyanne Conway, Counselor to
+ the President, 22.01.2017
+
+Quellen9,10,11,12
+
+
+
+
+9 https://www.washingtonpost.com/news/powerpost/wp/2017/03/06/here-are-the-photos-that-show-
+
+obamas-inauguration-crowd-was-bigger-than-trumps/, abgerufen 07.10.2023
+10 https://www.washingtonpost.com/news/the-     x/wp/2017/01/21/sean-spicer-held-a-press-conference-
+he-didnt-take-questions-or-tell-the-whole-truth/, abgerufen 07.10.2023
+11 https://www.washingtonpost.com/news/the-     x/wp/2017/01/21/sean-spicer-held-a-press-conference-
+he-didnt-take-questions-or-tell-the-whole-truth/, abgerufen 07.10.2023
+12 https://en.wikipedia.org/wiki/Alternative_facts, abgerufen 07.10.2023
+
+                                                  Seite 6
+
+
+
+                          fi
+                          fi
+      Beispiel 2: “Schluss mit dem Klimaschutz”, Artikel über das
+      AfD-Programm in der Berliner Zeitung
+      “Kohlendioxid (CO2) sei kein […] Schadsto , sondern ein un-
+      verzichtbarer Bestandteil allen Lebens, heißt es im Programm-
+      entwurf der AfD. Die Klimaänderungen seien einem natürlichen
+      Klimawandel geschuldet. Deshalb sollen Klimaschutz-Organi-
+      sationen nicht mehr unterstützt werden, und CO2-Emisssionen
+      (z.B. aus veralteten Braunkohlekraftwerken) nicht mehr nanziell
+      belastet. Auch neue Energien wie Windkraft und Solarenergie sol-
+      len nicht mehr gefördert, das entsprechende Gesetz ersatzlos ab-
+      gescha t werden.” – Aus einem Artikel der Berliner Zeitung,
+      14.03.2016
+
+     Quelle13
+
+      Beispiel 3: Kreationismus
+      Kreationismus ist die religiöse Au assung, dass das Universum,
+      das Leben und der Mensch so entstanden sind, wie es insbeson-
+      dere in der alttestamentlichen Genesis geschildert wird.
+      Kreationismus wurde als Pseudowissenschaft zu Intelligent De-
+      sign stilisiert und in Kansas und Pennsylvania sowie einigen ande-
+      ren Staaten in den Lehrplan der Schulen integriert.
+
+     Quelle14
+
+
+
+
+     13 https://www.berliner-zeitung.de/politik-gesellschaft/parteiprogramm-der-afd-wie-sich-die-partei-das-
+
+     zusammenleben-in-deutschland-vorstellt-li.14607, abgerufen 07.10.2023
+     14 Kreationismus im Schulunterricht, https://de.wikipedia.org/wiki/Kreationismus#Nordamerika, abgerufen
+
+     07.10.2023
+                                                      Seite 7
+
+
+
+                                                                         fi
+                                                       ff
+                                     ff
+ff
+1.4.      Pseudowissenschaft und Wissenschaftsleugnung
+ Pseudowissenschaft
+ “[Als Pseudowissenschaften gelten Behauptungen, Lehren, Theo-
+ rien, Praktiken und Institutionen,] die beanspruchen, wissen-
+ schaftlich zu sein bzw. scheinbar wissenschaftlich sind, aber die
+ Ansprüche an Wissenschaftlichkeit, insbesondere das Kriterium
+ der Nachprüfbarkeit, nicht erfüllen.”
+ Zwei Grundströmungen:
+ • Erstens Wissenschaftsleugnung, z. B. die Klimawandelleug-
+   nung. Bestimmte etablierte wissenschaftliche Erkenntnisse wer-
+   den in Frage gestellt und unstrittige Forschungsergebnisse als
+   kontrovers dargestellt.
+ • Zweitens Aufstellen von Pseudotheorien, z. B. der Astrologie
+   oder der Homöopathie. Vertreter von Pseudotheorien wollen ihre
+   eigenen Aussagen etablieren und als konform zum Forschungs-
+   stand darzustellen. Wissenschaftliche Aussagen werden hierbei
+   nur so weit bestritten, wie es für die Etablierung ihrer eigenen
+   Aussagen notwendig ist.
+ In beiden Fällen sollen häu g ideologische, wirtschaftliche oder
+ politische Ziele untermauert werden.
+
+Quelle15
+
+
+
+
+15 https://de.wikipedia.org/wiki/Pseudowissenschaft, abgerufen 07.10.2023
+
+                                                Seite 8
+
+
+
+                      fi
+      Wissenschaftsleugnung und Wissenschaftsverachtung,
+      Sean B. Carroll nennt sechs Kerntaktiken missliebige wissen-
+      schaftliche Erkenntnisse abzustreiten:
+      I.   Rufe Zweifel an der Wissenschaft hervor.
+      II. Stelle die persönlichen Motive und die Integrität von Wissen-
+          schaftlern in Frage.
+      III. Bausche echte Meinungsverschiedenheiten in der Forschung
+           auf und führe Nicht-Experten mit Minderheitenmeinungen als
+           Autoritäten an.
+      IV. Übertreibe die möglichen Gefahren, die durch die jeweilige
+          Thematik entstehen können.
+      V. Stelle die Thematik als Bedrohung für die persönliche Freiheit
+         dar.
+      VI. Behaupte, dass die Akzeptanz einer Schlüsselphilosophie, ei-
+          nem religiösen Glauben oder einem Brauch einer Gruppe wi-
+          dersprechen würde.
+
+     Quellen16,17
+
+
+
+
+     16 https://de.wikipedia.org/wiki/Wissenschaftsleugnung#Generelle_Vorgehensweise_von_Wissenschafts-
+
+     leugnern, abgerufen 07.10.2023
+     17 https://www.klimafakten.de/meldung/p-l-u-r-v-das-sind-die-haeu   gsten-methoden-der-desinformati-
+     on-neue-infogra k-im, abgerufen 07.10.2023
+                                                       Seite 9
+
+
+
+                                                  fi
+fi
+                                                                                              Masse von                                                                                Fingierte Debatte
+                                                                                              Pseudo-Experten                                                                              seriöse Forscher und Pseudo-
+                                                                                                  mit Verweis auf eine                                                                 Experten in einem Pro&Contra-Format
+                                                                                              große Zahl unqualifizierter                                                              präsentieren, um den irreführenden
+                                                                                              Personen behaupten, es                                                                   Eindruck einer tatsächlichen wissen-
+                                                                                              gäbe in der Forschung zu                                                                 schaftlichen Debatte zu erwecken
+                                                                                              einer bestimmten Frage                     Aufgeblähte Minderheit
+                                                                                              noch keine gesicherten                        eine kleine Zahl abweichender
+                                                                                              Erkenntnisse                               Meinungen fälschlich als große
+                                                                                                                                         Menge präsentieren
+
+                                    unqualifizierte Personen
+                                    oder Institutionen als
+                                    Quelle relevanter Einwände                                                                                                       Voreilige Schlussfolgerung
+                                    präsentieren                                                                                                                          durch Weglassen relevanter
+                                                                                Irreführende Analogie                                                                Informationen eine falsche Aussage
+                                                                                    daraus, dass sich Dinge in einem                                                 als schlüssig erscheinen lassen
+                                                                                bestimmten Punkt gleichen, fälschlich
+                                                                                schließen, sie wären auch in anderen                                                                                                  Übermäßige Vereinfachung
+                                                                                Punkten gleich                                                                                                                            Falsche Dichotomie
+                                                                                                                            Mehrdeutigkeit                                                                            zwei Optionen als einzige Möglichkeiten
+                                                                                                                                mehrdeutige Begriffe verwenden,                                                       darstellen, wenn es in Wahrheit noch
+                                                                                                                            um Zuhörende aufs Glatteis zu führen                                                      andere gibt
+                                                                                                                            und so zu irreführenden Schluss-
+                                                                                                                            folgerungen zu bringen                                                                        Ursachen unterschlagen
+                                                                                                                                                                                                                      suggerieren, es gäbe für ein Ereignis
+                                                                                                                                                                                                                      nur eine Ursache, wenn es in Wahrheit
+                                                                  Ad-hominem-Attacke                                                                  Blendgranate                                                    mehrere gibt
+                           Argumentationen                            ein Argument dadurch angreifen                                                      Steht die Diskussion an einem
+                           vorbringen, die sich bei               und entwerten, dass man die Person                                                  Punkt, der einem unangenehm ist,
+                           genauer Betrachtung als                angreift oder verleumdet, die es                                                    wirft man eine Aussage in den Raum,
+                           unlogisch erweisen – zum               vorbringt („ad hominem“, lateinisch =                                               die alle Aufmerksamkeit auf sich zieht
+                           Beispiel aus korrekten
+                                                                  gegen die Person gerichtet)                                                         und vom ursprünglichen Punkt ablenkt.
+                           Informationen falsche
+                           Schlüsse ziehen
+                                                                                                                                                      (engl. Titel der Strategie: „red herring“)
+
+
+
+
+                                                                                                                                                                                                                      Strohmann-Argumentation
+                                                                                Verschiebung von Torpfosten                                           Verfälschte Darstellung                                             die Position der Diskussions-
+                                                                                    plötzlich seine Forderungen                                           eine Situation falsch oder verzerrt                         partnerin oder einer dritten Person
+                                                                                verschärfen, nachdem vorherige                                        darstellen, um so die eigene Behauptung                         falsch oder verzerrt darstellen, um
+                                                                                Forderungen erfüllt wurden                                            scheinbar zu stützen                                            sie besser angreifen zu können
+
+
+                                                                  von der Wissenschaft Dinge
+                                                                  verlangen, die sie gar nicht erfüllen
+                                                                  kann – zum Beispiel durch das
+                                                                  Fordern eines Grades von Gewissheit,
+                                                                  der unerreichbar ist
+
+
+
+
+                                                                                Faultier-Induktion
+                                                                                    die Informationssuche beenden,
+                                                                                sobald man zu einem passenden
+                                                                                Schluss gekommen ist (Während beim                                                   Ob bei der Erderhitzung, der Wirksamkeit
+                                                                                „Rosinenpicken“ bequeme Informationen                                                von Impfungen oder den Gesundheits-
+                                                                                hervorgehoben werden, geht es hier eher                                              gefahren durch Auto-Abgase: Immer
+                                                                                um ein Vernachlässigen unbequemer
+                                                                                Informationen.)                                                                      wieder werden in politischen Diskussionen
+                                                                                                                                                                     grundlegende wissenschaftliche Fakten
+                                                                                                                                                                     falsch dargestellt.
+                                                                                                                                                                     Dies passiert bei Facebook, Twitter & Co.
+                           Informationen bewusst lückenhaft                                                                                                          genauso wie auf Internet-Blogs,
+                           auswählen, sodass sie bei isolierter                                                                                                      in persönlichen Gesprächen ebenso wie
+                           Betrachtung die eigene Position zu
+                           stützen scheinen                                                                                                                          in Bundestagsreden. Für Laien sind die
+                                                                  Anekdote                                                                                           rhetorischen Tricks der Manipulation oft
+                                                                       rein subjektive Erfahrungen oder                                                              schwer zu erkennen.
+                                                                  isolierte Einzelbeispiele heranziehen
+                                                                  und hervorheben, statt eine breite,                                                                Diese Grafik erklärt die häufigsten
+                                                                  auch abstrakte Informationsbasis                                                                   Strategien, mit denen die Nebelmaschine
+                                                                  zuzulassen                                                                                         der Desinformation arbeitet.
+
+
+
+
+                                              üble Machenschaften und geheime
+                                              Bünde unterstellen, zum Beispiel
+                                              dass Einzelpersonen oder Gruppen
+                                              absichtsvoll Beweise zum
+                                              Klimawandel fälschen usw.
+                                                                                                                                                                                                                                             Illustration und Gestaltung:
+                                                                                                                                                                                                       klimafakten.de                              Marie-Pascale Gafinen
+                                                                                                                                                                        sks.to/plurv                    www.klimafakten.de/plurv                       www.gafinen.com
+
+
+
+
+Quelle18
+
+ Wissenschaft in einer komplexen Welt
+ Mit den drei Beispielen, der Erläuterung von Pseudowissenschaf-
+ ten und Wissenschaftsleugnung wollte ich aufzeigen wie komplex
+ Wissenschaft in der Gesellschaft eingebettet ist und warum eine
+ Wissenschaft, die die Wissenschaften untersucht, wichtig ist.
+ Wissenschaftler wissen oft nicht, wie sie auf solche Angri e re-
+ agieren sollen. Sie ziehen sich in den Elfenbeinturm zurück und
+ reden nur noch in einer Fachsprache, die niemand versteht.
+ Die Gefahr dabei ist, dass man auf die Angri e auf Wissenschaft
+ (und Wissenschaftler) eine falsche Reaktion entgegen setzt. Man
+ vertritt einen idealisierten Begri von Wissenschaft.
+
+
+
+18 PLURV, https://www.klimafakten.de/sites/default/                                                                         les/downloads/plurvgrundkurs-desinformationa3we-
+b.pdf, abgerufen 07.10.2023
+                                                                                                          Seite 10
+
+
+
+                                                                                                                                                                                                                 ff
+                                                                                                            ff
+                                    fi
+                          ff
+1.5.   Wissenschaftliche Programme
+Idealisierte Vorstellung von Wissenschaft
+• Es gibt EINE einheitlichen wissenschaftlichen Methode und
+• Wertfreiheit des Kerns wissenschaftlicher Praktiken.
+Abgrenzungsproblem:
+Zu dieser Vorstellung braucht man ein notwendiges und hinrei-
+chendes Kriterium um Wissenschaft von Pseudowissenschaft ab-
+zugrenzen.
+
+
+Überblick über die wichtigsten wissenschaftlichen Program-
+me
+Methode der Induktion ab ca. dem 17. Jht.
+Seit der wissenschaftlichen Revolution im 17. Jahrhundert wurde
+die induktive Methode als Methode der Wissenschaft betrachtet.
+Induktion geht vom Einzelnen zum Allgemeinen: Es wird beobach-
+tet, nach Regelmäßigkeiten gesucht und dann zu Hypothesen und
+Theorien verallgemeinert. Dann werden die Hypothesen, die aus
+den Theorien folgen überprüft.
+Kritik: Induktion ist nicht verlässlich.
+Beispiel: Alle Schwäne sind Weiß. Das gilt bis sie nach Australien
+fahren, dort sind die Schwäne schwarz.
+
+
+
+
+                                  Seite 11
+           Methode der Deduktion ab 1935
+           Karl Popper hat im Buch „Logik der Forschung“ von 1934 das
+           Konzept (philosophische Denkrichtung) des Kritischen Rationa-
+           lismus formuliert.
+           Das bedeutet, dass jede Theorie (jeder Problemlösungsversuch)
+           falsch sein kann. Er schlägt in Logik der Forschung vor, dass die
+           empirische Wissenschaft die Methode der Falsi kation anwenden
+           sollte. Der Wissenschaftler stellt eine Theorie auf, leitet (kühne)
+           Hypothesen ab und versucht sie zu falsi zieren. Eine Theorie gilt
+           als nie als bewiesen, sondern als derzeit gültig, bis sie irgendwann
+           doch verbessert werden muss, weil neue Apparate oder grundle-
+           gendere Theorien gefunden werden.
+
+          Quelle19
+
+
+
+
+          19 Paradigmenwechsel in der modernen Wissenschaft
+
+          Von der generellen Induktion wissenschaftlicher Theorien hin zur Deduktion, der kritischen Betrachtungs-
+          weise mittels Falsi kation.
+          Vereinfacht gesagt:
+          Induktiv:         Einzelbeobachtung –> Theorie/Gesetz
+                            –> (veri zieren, induktiv)
+                            Empirische Veri zierbarkeit (Logischer Empirismus: z.B.
+                            Carl Gustav Hempel, Rudolf Carnap, Rose Rand,…)
+                            Kritik: Wissenschaftliche Theorien können nicht verif
+                            ziert werden
+          Deduktiv:         Theorie –> Suche nach Fehlern –> verbesserte Theorie
+                            –> (falsi zieren, deduktiv)
+                            Empirische Falsi zierbarkeit (Kritischer Rationalismus:
+                            Karl Popper, Hans Albert, Noretta Koertge…)
+                            Kritik siehe unten.
+          Kritischer Rationalismus versucht also paradoxerweise Theorien dadurch besser zu machen, dass er sie
+          zu widerlegen versucht. Siehe z.B. https://www.lektorat-plus.de/posts/kritischer-rationalismus.php, abge-
+          rufen am 04.08.2023
+                                                          Seite 12
+
+
+
+                                                               fi
+                                                    fi
+                            fi
+                       fi
+                  fi
+             fi
+     fi
+	﻿
+	﻿
+             Zusammenhang Theorie/Empirie.
+
+     Quelle20
+
+      Kritik an der Deduktion
+      Abgrenzungsproblem: Die Suche nach einem Kriterium, um Wis-
+      senschaften von Nicht- oder Pseudo-wissenschaften zu unter-
+      scheiden, das notwendig und hinreichend ist, blieb bislang erfolg-
+      los.
+      Logikproblem: Nach Pierre Duhem liegt hier ein Logikproblem
+      vor: Experimente testen immer mehr als eine Hypothese - welche
+      wird falsi ziert?
+      Bei der Prüfung einer Hypothese werden immer mehrere Hypo-
+      thesen überprüft, beispielsweise die Mess-Apparate. Beispiel: Die
+      Hypothese ist, dass der Jupiter Monde hat. Das soll mit einem Te-
+      leskop, das die Hilfshypothese darstellt überprüft werden. Jetzt
+      sehe ich keine Monde im Teleskop. Ist jetzt die Hypothese falsch
+      oder die Hilfshypothese.
+      Vielleicht stimmt also die Hypothese aber die Hilfshypothese ist
+      falsch. Logisch kann nur aus Hypothese und Experiment keine Er-
+      kenntnis gewonnen werden.
+
+
+
+
+     20[https://de.wikipedia.org/wiki/Deduktion#/media/Datei:Induktion-Deduktion.svg], Abgerufen am
+
+     26.07.2019
+                                                    Seite 13
+
+
+
+fi
+Larry Laudan: “The Demise of the Demarcation Problem”.
+1983.
+    “Es kann das geforderte [Abgrenzungs-]Kriterium
+    nicht geben, solange wir verlangen, dass es notwen-
+    dige und gemeinsam hinreichende Bedingungen for-
+    muliert.
+    Außerdem ist der Begri von Wissenschaft [den ein
+    Abgrenzungskriterium liefert] nicht beliebig. Er sollte
+    auf die größten Teile der Geschichte der Wissen-
+    schaften anwendbar sein.”
+Laut Laudan seien beide Forderungen begründbar, aber nicht
+gleichzeitig erfüllbar. Damit war die Suche nach einem Abgren-
+zungskriterium vorerst beendet.
+
+
+
+
+                            Seite 14
+
+
+
+          ff
+Alternativen zum Abgrenzungsproblem seit den 1980er Jahren
+Nicht EINE Wissenschaft sondern VIELFALT von Wissenschaf-
+ten:
+• Mehrere Kriterien, die die »Familienähnlichkeiten« zwischen den
+  Wissenschaften rekonstruieren, ohne dass ein Merkmal allen
+  Wissenschaften zukommen muss (z.B. John Dupré).
+• Richtung umkehren: Nicht de nieren, was Wissenschaften aus-
+  zeichnet (und damit, was Pseudowissenschaften fehlt), sondern
+  was das Besondere an Pseudowissenschaften ist (z.B. Maarten
+  Boudry).
+=> Verschiedene Wissenschaften haben spezi sche Kriterien.
+Perspektivwechsel in Wissenschaftsgeschichte und - sozio-
+logie:
+• “boundarywork” (Thomas F. Gieryn): Wie wird die epistemische
+  (wissensbasierte) Autorität der verschiedenen Wissenschaften
+  tatsächlich durchgesetzt und verteidigt?
+=> Verschiedene Wissenschaften werden individuell betrachtet
+anhand ihrer Autoritäten und der empirischen Praktiken sowie
+Wissenspraktiken, die sich durchsetzen gegen andere Wissens-
+praktiken. Beispielsweise in der Medizin.
+
+
+
+
+                             Seite 15
+
+
+
+                              fi
+               fi
+      Fazit
+      Viele sind in ihrer Vorstellung von Wissenschaft von der “falschen
+      intuitiven Vorstellung” von Wissenschaft geprägt und Fordern:
+      I.   Eine einheitliche Wissenschaftliche Methode.
+      II. Wertfreiheit wissenschaftlicher Praktiken
+      Das ist aber nur eine Ho nung bzw. Illusion: Die Wahrheit in der
+      Wissenschaft sei eine Übereinstimmung mit einer unabhängigen
+      Wirklichkeit.
+      Es gibt Wissenschaften und deren unterschiedliche Praktiken.
+      Eine Wissenschaft versucht Erkenntnisse zu gewinnen und ist frei
+      und o en für Neues.
+      Pseudowissenschaften, behaupten Dinge aufgrund von ideologi-
+      schen und wirtschaftlichen Interessen. Wissenschaften sind nicht
+      frei von ideologischen und wirtschaftlichen Interessen.
+      Aber in Wissenschaften können sich neue Erkenntnisse durchset-
+      zen, in Pseudowissenschaften werden sie unterdrückt.
+
+
+      Max Planck’s ironischer Blick
+             "Eine neue wissenschaftliche Wahrheit p egt sich
+             nicht in der Weise durchzusetzen, daß ihre Gegner
+             überzeugt werden und sich als belehrt erklären, son-
+             dern vielmehr dadurch, daß ihre Gegner allmählich
+             aussterben und daß die heranwachsende Generation
+             von vornherein mit der [neuen] Wahrheit vertraut ge-
+             macht ist.”
+             Max Planck
+
+     Quelle21
+
+
+
+
+     21 Wissenschaftliche Selbstbiographie, Johann Ambrosius Barth Verlag, Leipzig, 1948, S.22
+
+                                                    Seite 16
+
+
+
+                                                       fl
+                      ff
+ff
+                Karl Popper hat im Buch „Logik der Forschung“ von 1934 das
+                Konzept des Kritischen Rationalismus formuliert. Er beschreibt ihn
+                als Lebenseinstellung:
+                       „die zugibt, dass ich mich irren kann, dass du recht
+                       haben kannst und dass wir zusammen vielleicht der
+                       Wahrheit auf die Spur kommen werden.”
+
+               Quelle22,23,24.
+
+                Abschließende Bemerkungen
+                Meine Ausführungen hier werden der Wissenschaftstheorie sicher
+                nicht wirklich gerecht. Sie sollen aber zeigen, dass man sich
+                durchaus mit der Theorie der Theorie beschäftigen kann.
+
+                Wir sind suchende, es gibt:
+                Known knowns                        bekanntes Wissen
+                Known unknowns                      bekanntes Unwissen
+                Unkown knowns                       unbekanntes Wissen
+                Unknown Unknows                     unbekanntes Unwissen
+
+               Quelle25
+
+
+
+
+               22 Popper, Karl. Logik der Forschung. Zur Erkenntnistheorie der modernen Naturwissenschaft, Springer-
+
+               Verlag, Wien, 1935 (1934), bei Wikipedia: https://de.wikipedia.org/wiki/Logik_der_Forschung, abgerufen
+               05.08.2023
+               23 Originaltext: Popper, Karl. Logik der Forschung. Zur Erkenntnistheorie der modernen Naturwissen-
+
+               schaft, Springer-Verlag, Wien, 1935 (1934), [https://monoskop.org/images/e/ec/Popper_Karl_Logik_der_-
+               Forschung.pdf, abgerufen am 26.07.2019
+               24 Karl Popper: Die o  ene Gesellschaft und ihre Feinde Band 1, Der Zauber Platons, 8. Au age, durchge-
+               sehen und ergänzt, Tübingen: Mohr Siebeck 2003, ISBN 978-3-16-148068-3.
+               Karl Popper: Die o ene Gesellschaft und ihre Feinde Band 2, Falsche Propheten: Hegel, Marx und die
+               Folgen, 8. Au age, durchgesehen und ergänzt, Tübingen: Mohr Siebeck 2003, ISBN 978-3-16-147802-4.
+               Bei Wikipedia: https://de.wikipedia.org/wiki/Die_o ene_Gesellschaft_und_ihre_Feinde
+               25 Eine Formulierung aller vier Aspekte ndet sich bereits in der klassischen persischen Literatur. Der per-
+               sisch-tadschikische Poet Ibn Yamin (* 1286 in Faryumad, bei Sebzevar, † 1368) (‫ )ابن یمین فریومدی‬schrieb
+               darüber bereits im 13. Jahrhundert, https://de.wikipedia.org/wiki/There_are_known_knowns#Reaktionen,
+               abgerufen 2019.
+                                                                Seite 17
+
+
+
+                                                                                    fl
+                                            ff
+                                 fi
+          ff
+     ff
+fl
+2.         Klassische Mechanik
+
+2.1.       Galileo Galilei (1564–1641) berechnet Bewegun-
+           gen
+ Galilei‘s Einkaufsliste von 1609
+
+
+
+
+        Galilei‘s Einkaufsliste von 1609 auf der Rückseite eines Briefs
+        an Ottavio Branzini. Die Liste wurde erst vor wenigen Jahren
+        entdeckt und übersetzt.
+
+Quellen26,27
+
+
+
+
+26 Der Wissenschaftshistoriker Matteo Valleriani hat auf der Rückseite eines Briefes aus Venedig eine un-
+
+gewöhnliche Einkaufsliste vom November 1609 entdeckt „… Kanonenkugeln, Orgelpfeifen, Tonerde, Filz
+etc. – verzeichnet jene Utensilien, die Galilei für erforderlich hielt, um mit eigenen Händen neue, bessere
+Linsen herzustellen“ https://idw-online.de/de/news570248, abgerufen 03.09.2019.
+27 Übersetzung; https://www.telegraph.co.uk/culture/books/11123049/The-worlds-most-intriguing-list-
+
+s.html, abgerufen 29.08.2019.
+                                                  Seite 1
+      Brief an den Dogen von Venedig, 1610
+      Galileo Galilei schreibt 1610 einen Brief an den Dogen von Vene-
+      dig über die Entdeckung der Jupitermonde.
+
+
+
+
+     Quellen: Brief28, Übersetzung29
+
+
+
+
+     28 http://www.lettersofnote.com/2016/02/the-galilean-moons.html, abgerufen am 03.09.2019. Oder:
+
+     https://commons.m.wikimedia.org/wiki/File:Galileo.script.arp.600pix.jpg#mw-jump-to-license, Aufzeich-
+     nungen Galileis zur Entdeckung der Jupitermonde (1610)
+     29 Galileo Galilei, Brief an den Dogen von Venedig, http://www.lettersofnote.com/2016/02/the-galilean-
+
+     moons.html, abgerufen am 03.09.2019.
+     „Most Serene Prince.
+     Galileo Galilei most humbly prostrates himself before Your Highness, watching carefully, and with all spirit
+     of willingness, not only to satisfy what concerns the reading of mathematics in the study of Padua, but to
+     write of having decided to present to Your Highness a telescope ("Occhiale") that will be a great help in
+     maritime and land enterprises. I assure you I shall keep this new invention a great secret and show it only
+     to Your Highness. The telescope was made for the most accurate study of distances. This telescope has
+     the advantage of discovering the ships of the enemy two hours before they can be seen with the natural
+     vision and to distinguish the number and quality of the ships and to judge their strength and be ready to
+     chase them, to ght them, or to ee from them; or, in the open country to see all details and to distinguish
+     every movement and preparation.“
+                                                       Seite 2
+
+
+
+                fl
+fi
+ Detail aus dem Brief:
+ In seinem Brief geht er aber mehr auf die Er ndung des Fernrohrs
+ ein und malt dessen militärischen Nutzen aus:
+        „Eure Hoheit: Das Teleskop wurde für die genaueste
+        Untersuchung der Entfernung gemacht. Dieses Tele-
+        skop hat den Vorteil, dass man Schi e des Feindes
+        zwei Stunden sehen kann, bevor man sie mit bloßem
+        Auge sieht und dass man die Zahl, Qualität beurteilen
+        kann. So kann man ihre Stärke beurteilen und sich
+        auf den Kampf vorbereiten oder iehen.“
+        Galileo Galilei, 1610
+
+ Galilei Fernrohr
+ 1609 hört er vom holländischen Fernrohr mit 4-facher Vergröße-
+ rung. Auf Anhieb erreicht sein Fernrohr 8-fache, später 30-fache
+ Vergrößerung.
+ Aufbau: Okular innerhalb der Brennweite des Objektivs. Brenn-
+ punkte von Objektiv und Okular müssen auf der Seite des Beob-
+ achters zusammenfallen.
+
+                                                                     fObj.
+                                                                                  fOk.
+
+                               α
+                                                                             α'
+
+
+
+
+                                        fOjektiv
+        Vergrößerung =                              , aufrechtstehendes Bild
+                                        fOkular
+ Noch heute eingesetzt: Telekonverter(-kompressor), Fernrohrbrille
+
+Quellen30,31,32, Telekonverter33, Telekompressor34, Fernrohrbrille35.
+
+30 Galilei Fernrohr: https://de.wikipedia.org/wiki/Fernrohr#Galilei-Fernrohr, abgerufen 21.09.2023
+
+31 Fernrohr von Galileo: https://www.prosieben.de/tv/galileo/videos/history-now-galileos-fernrohr-clip,
+
+abgerufen am 02.11.2019
+32 Skizze Galilei Fernrohr: Von LehrerCN - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/
+
+w/index.php?curid=19879234, abgerufen 21.09.2023
+33 Telekonverter: https://de.wikipedia.org/wiki/Telekonverter, abgerufen 18.09.2023
+
+34 Telekompressor: https://de.wikipedia.org/wiki/Telekompressor, abgerufen 18.09.2023
+
+35 Fernrohrbrille: https://de.wikipedia.org/wiki/Fernrohrbrille, abgerufen 18.09.2023
+
+                                                           Seite 3
+
+
+
+                                                      fi
+                                               ff
+                                   fl
+      Galileo Galilei: Begründer der Physik
+
+
+
+
+      “… das Universum liegt o en vor uns. Aber es ist in der Sprache
+      der Mathematik geschrieben,” Galileo Galilei, Rom, Oktober 1623
+      Katholische Kirche verurteilte ihn wegen seiner Erkenntnisse zu
+      lebenslangem Hausarrest. Rehabilitiert im Jahr 1992.
+      Er hat den Arrest genutzt, um die Physik zu er nden. Er hat Expe-
+      rimente gemacht und alles aufgeschrieben, was er beobachtet
+      hat. Er hat auch Fallexperimente gemacht, allerdings wohl nicht
+      auf dem schiefen Turm von Pisa.
+
+     Quellen: Galileo Galilei, Porträt von Domenico Tintoretto36, ca.
+     1605, Il Saggiatore”37,38, Rom, Oktober 1623
+     36 Domenico Tintoretto, https://de.wikipedia.org/wiki/Domenico_Tintoretto, abgerufen 18.09.2023
+
+     37„Die Philosophie steht in diesem großen Buch geschrieben, dem Universum, das unserem Blick ständig
+
+     o en liegt. Aber das Buch ist nicht zu verstehen, wenn man nicht zuvor die Sprache erlernt und sich mit
+     den Buchstaben vertraut gemacht hat, in denen es geschrieben ist. Es ist in der Sprache der Mathematik
+     geschrieben, und deren Buchstaben sind Kreise, Dreiecke und andere geometrische Figuren, ohne die es
+     dem Menschen unmöglich ist, ein einziges Wort davon zu verstehen; ohne diese irrt man in einem dunk-
+     len Labyrinth herum.“
+     Galileo Galilei: Il Saggiatore, 1623, Opere di Galileo Galilei, Band VI. G. Barbèra, Florenz 1933, S. 232.
+     https://bibdig.museogalileo.it/Teca/Viewer?an=354802
+     38 Galileo Galilei, Il Saggiatore (in Italian) (Rome, 1623); The Assayer, English trans. Stillman Drake and C.
+
+     D. O'Malley, in The Controversy on the Comets of 1618 (University of Pennsylvania Press, 1960), https://
+     en.wikipedia.org/wiki/The_Assayer, abgerufen 18.09.2023
+     "The Assayer (Italian: Il Saggiatore) was a book published in Rome by Galileo Galilei in October 1623 and
+     is generally considered to be one of the pioneering works of the scienti c method, rst broaching the idea
+     that the book of nature is to be read with mathematical tools rather than those of scholastic philosophy,
+     as generally held at the time.”
+                                                         Seite 4
+
+
+
+                                                                     fi
+                                                              fi
+                                                         fi
+                         ff
+ff
+     2.2.       Der freie Fall
+      Experiment: Freier Fall zu schnell für das Auge
+
+
+
+
+      Beim freien Fall kann man x(t) nicht mit dem bloßen Auge messen.
+
+     Quelle.39
+
+
+     39 Bauer, Wolfgang; et. al.: Fallbeschleunigung, cliXX Physik, Verlag Harri Westphal, 1999
+
+     “Man sagt von Isaac Newton, daß er unter einem Baum saß und von einem herabfallenden Apfel getro en
+     wurde, worauf ihm sozusagen das Licht über die Gravitationskräfte aufging. Wir wissen alle, daß man
+     Bewegungsabläufe heutzutage viel besser mit dem Computer studieren kann. Da konnten wir der Versu-
+     chung einfach nicht widerstehen und haben auch einen Apple (genauer gesagt: einen ausrangierten Apple
+     II Plus inklusive Tastatur und Maus) vom Dach einer Parkgarage frei fallengelassen. … Zunächst stellen
+     wir fest, daß die Fallhöhe 13 m und 7 cm war. Dies kann man relativ einfach mit einem Zollstock oder
+     Maßband messen. Wir geben Ihnen diese Information, weil man damit die Bildhöhe kalibrieren kann.
+     Wir können nun auch das Movie Bild für Bild analysieren. Dies können Sie selber durch sorgfältiges Mes-
+     sen durchführen, weil wir Ihnen gerade die Fallhöhe genannt haben. Wir haben dazu das Software-Paket
+     "XY-Digitizer" von Westwolf Software verwendet. In dem Diagramm rechts ist die Position des Computers
+     für jedes einzelne Bild des Movies aufgeführt (rote Kreise). Wir haben auch eine Parabel (grüne Linie) an-
+     ge ttet und erhalten aus dem Koe zienten für t2 den numerischen Wert g = 9,9 m/s2, also bis auf 1%
+     genau den akzeptierten Wert.”
+
+
+
+
+                                                       Seite 5
+
+
+
+                                                                                       ff
+                  ffi
+fi
+ Experiment: Zeitlupe (für das Ohr) mit der schiefen Ebene
+
+
+
+
+ 1610 gab es noch keine Uhren mit Sekundenzeiger oder Smart-
+ phones mit Zeitlupenfunktion. Galileo Galilei überlegte, dass sich
+ auf einer schiefen Ebene Fallbewegung und Horizontalbewegung
+ ungestört überlagern.
+ Er lies eine Kugel nicht fallen, sondern rollen. Clips hat er so lange
+ verschoben, bis in gleichen Zeitintervallen ein Click hörbar wurde.
+ Dann hat er die Abstände zwischen den Clips gemessen.
+
+Quelle40
+
+
+
+
+40 Galileo’s Ramp, Rice University: https://www.youtube.com/watch?v=9BQKe9HT1OE (bearbeitet), ab-
+
+gerufen 19.09.2023
+                                              Seite 6
+Ergebnis: Freier Fall ist gleichförmig beschleunigte Bewegung
+Relation zwischen Zeit- und Streckenintervallen:
+
+
+
+
+Strecke:               x(t) = 12 ⋅ a ⋅ t 2     [Strecke = m]
+Geschwindigkeit:       v(t) = a ⋅ t            [ Strecke
+                                                   Zeit
+                                                         = m
+                                                           s
+                                                             ]
+                                                   Strecke   m
+Beschleunigung         a(t) = constant         [           =    ]
+                                                    Zeit 2   s2
+                                      Δx
+• mittlere Geschwindigkeit:           Δt
+                                      dx
+• momentane Geschwindigkeit           dt
+• Allgemeine Bewegungsgleichungen:
+
+    Strecke:                  x(t)
+    Geschwindigkeit:          v(t) = dx           ·
+                                        = x′(t) = x(t)
+                                     dt
+    Beschleunigung
+                                      2
+                              a(t) = d 2x = dv            ··
+                                               = x′′(t) = x(t)
+                                          dtdt
+
+
+
+
+                                Seite 7
+
+           ￼
+       ￼
+￼
+          2.3.       Trägheitssatz
+           Trägheitssatz von Galileo Galilei
+           Kräftefreie Körper bewegen sich geradlinig gleichförmig.
+           Weitere Experimente mit schiefen Ebenen und rollenden Kugeln
+           zeigten, dass sich unabhängig von der Steigung die Kugeln immer
+           die Höhe erreichen, von der aus sie gestartet sind. Daraus hat er
+           den Trägheitssatz abgeleitet.
+
+
+
+
+                  ▶ https://hdm.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1df34112-2337-4e9d-
+                  bfe9-b08200b52ba9
+
+
+          Quellen41,42
+
+
+
+
+          41 Galileo Galilei, Discorsi, Seiten 25–26, https://archive.org/details/unterredungenun06galigoog/page/
+
+          n25/mode/2up?view=theater, und Galileo Galilei, Discorsi, Seiten 56–58, https://archive.org/details/unter-
+          redungenun06galigoog/page/n57/mode/2up?view=theater,
+          “Als Erster erkannte Galileo Galilei zu Beginn des 17. Jahrhunderts das Trägheitsprinzip und formulierte
+          auch schon, dass die kräftefreie Bewegung sich beliebig weit geradlinig fortsetze. Er nutzte dies zur ers-
+          ten korrekten Behandlung der Bewegungen von Körpern auf der Erde im freien Fall, im schiefen Wurf und
+          auf der schiefen Ebene”, https://de.wikipedia.org/wiki/Trägheit, abgerufen 21.09.2023
+          42 Arbor Scienti  c: Galileo’s Concept of Inertia: https://www.youtube.com/watch?v=vzYhw7mWQJ8 (mo-
+          di ziert), abgerufen 19.09.2023
+                                                            Seite 8
+
+
+
+     fi
+fi
+         Relativitätsprinzip und Galileitransformation
+         In einem gleichförmig bewegten System kann man nicht be-
+         merken, dass man sich bewegt.
+         Alle gleichförmig bewegten Bezugssysteme (Inertialsysteme) sind
+         gleichwertig, der Wechsel zwischen den Bezugssystemen erfolgt
+         durch Galilei-Transformation.
+
+
+
+
+         Galileitransformation für Koordinatenverschiebung mit v0 in x-
+         Richtung von System S (x,y,z) zu System S’ (x’y’z’):
+
+                x′ = x − vot
+                y′ = y
+                z′ = z
+                t′ = t
+        Bildquelle43
+
+
+
+
+        43 Galileitransformation: https://commons.wikimedia.org/wiki/File:Trasformazione_galileiana.png#/media/
+
+        File:Trasformazione_galileiana.png, abgerufen 19.09.2023
+                                                        Seite 9
+
+
+    ￼
+    ￼
+￼   ￼
+2.4.      Isaac Newton44 (1643–1727) berechnet Kräfte
+ Er ist ein Schwergewicht der Physik. Er hat die erste große Theo-
+ rie geformt, die klassische Mechanik, auch Newtonsche Mechanik
+ genannt. Dabei erkennt er die Leistung der Physiker an, auf die er
+ aufbaut. In einem Brief an Robert Hooke (1635–1703) schreibt er:
+        “If I have seen further it is by standing on the shoul-
+        ders of giants.”
+        Isaac Newton, 5. Februar 1675
+
+
+
+
+Quellen45,46
+
+
+
+
+44 Isaac Newton, https://en.wikipedia.org/wiki/Isaac_Newton, abgerufen 21.09.2023
+
+45 https://discover.hsp.org/Record/dc-9792/Description#tabnav, abgerufen am 29.08.2019
+
+46 Robert Hooke, https://en.wikipedia.org/wiki/Robert_Hooke, abgerufen am 21.09.2023
+
+                                               Seite 10
+Newtons Annahmen
+• Absoluter, dreidimensionaler und euklidischer Raum.
+• Raum ist homogen und isotrop.
+• Absolute, eindimensionale Zeit.
+• Zeit ist homogen, gerichtet und fortschreitend.
+• Absolute Gleichzeitigkeit.
+Newtons Massepunkte
+• Ausgedehnte Körper werden durch Massepunkte beschreiben.
+
+• Trajektorien (Bahnkurven):         ⃗r(t)
+                                     ·                   d ⃗r(t)
+• Geschwindigkeit:                   ⃗r(t) = ⃗v(t)   =     dt
+                                     ··                  d 2 ⃗r(t)
+• Beschleunigung:                    ⃗r(t) = ⃗
+                                            a(t)     =
+                                                           dt 2
+
+Newtons Theorie basiert auf drei Axiomen, auch Gesetze genannt.
+
+
+
+
+                               Seite 11
+     2.5.       Newtons Axiome
+      Erstes Newtonsches Axiom: Trägheitsgesetz
+      Es gibt ausgezeichnete Bezugssysteme, die Innertialsysteme,
+      in denen jeder kräftefreie Körper sich geradförmig mit kon-
+      stanter Geschwindigkeit bewegt.
+      • Wechsel zwischen Innertialsystemen –> Galilei-Transformation.
+      • Ausgezeichnete Inertialsysteme: auf Fixsterne bezogen.
+      Beispiel: Steinwurf im All, weit weg von allen Massen.
+
+
+
+
+                       Stein iegt “ewig” mit v⃗, kräftefrei. Abbildung
+      Realität: auf geradlinige, umbeschleunigte Bewegungen wirken
+      immer irgendwelche Kräfte. Reibung, Anziehung, …
+
+     Quellen47,48
+
+      Zweites Newtonsches Axiom: Grundgleichung der Mechanik
+      In jedem Inertialsystem gilt für einen nicht kräftefreien Körper:
+
+              F ⃗ = m ⋅ a ⃗ = m r ⃗ = p⃗
+                               ·· ·
+
+                                     F ⃗ = m ⋅ a ⃗ = m r ⃗ = p⃗
+                                                       ·· ·
+      • Kraft auf Massepunkt:
+                                           ··
+      • Beschleunigung auf Massepkt. a ⃗ = r ⃗
+                                                ·
+      • Impuls des Massepunkts       m ⋅ v⃗ = m r ⃗ := p⃗
+      • Keine Kraft                                           F ⃗ = 0 => Impulserhaltung
+
+     47 Wird auch lex prima, Trägheitsprinzip, Trägheitsgesetz oder Inertialgesetz genannt. Lat. Originaltext:
+
+     Philosophiae naturalis principia mathematica. London, 1726 S. 13: “Corpus omne perseverare in statu
+     suo quiescendi vel movendi uniformiter in directum, nisi quatenus illud a viribus impressis cogitur statum
+     suum mutare.” https://libcoll.mpiwg-berlin.mpg.de/libview?url=/mpiwg/online/permanent/einstein_exhibi-
+     tion/sources/EBU40Q4B/pageimg&start=60&pn=60&mode=imagepath, abgerufen 19.09.2023
+     48 Pfeil eigen. Stein von Macrovector auf Freepik, https://de.freepik.com/vektoren-kostenlos/stein-und-
+
+     felsen-karikatur_13050167.htm, abgerufen 19.09.2023
+                                                       Seite 12
+
+
+
+fl
+Quelle49
+
+ Beispiel (Gedankenexperiment): Steinwurf auf der Erde.
+
+
+
+
+ Stein geworfen mit v⃗ tangential zur Erde oberhalb der Atmosphäre
+
+ • Ist v⃗ zu klein, fällt er zu Boden (v⃗ = 0 oder v⃗ = 6.000 m /s),
+
+ • Hat v⃗ = 7.300 m /s , umkreist er die Erde und der Schütze be-
+   kommt den Stein nach einem Umlauf an den Hinterkopf.
+
+ • Wird v⃗ ≈ 10.000 m /s , verlässt der Stein die Erde und ver-
+   schwindet im All.
+
+Bildquelle50, Animation51
+
+
+
+
+49 Wird auch lex secunda, Aktionsprinzip genannt. Lat. Originaltext: Philosophiae naturalis principia ma-
+
+thematica. London, 1726: „Mutationem motus proportionalem esse vi motrici impressae, et eri secund-
+um lineam rectam qua vis illa imprimitur.“ https://libcoll.mpiwg-berlin.mpg.de/libview?url=/mpiwg/online/
+permanent/einstein_exhibition/sources/EBU40Q4B/pageimg&start=60&pn=60&mode=imagepath, abge-
+rufen 19.09.2023
+50 Isaac Newton, Newton's Principia : the mathematical principles of natural philosophy, The system of
+
+the world, page 513 https://archive.org/details/newtonspmathema00newtrich/page/n517/mode/2up, ab-
+gerufen 19.09.2023
+51 Animation der verschiedenen Geschwindigkeiten. By Lookang many thanks to author of original simula-
+
+tion = Todd Timberlake author of Easy Java Simulation = Francisco Esquembre - Own work, CC BY-SA
+3.0, https://commons.wikimedia.org/w/index.php?curid=21961920, abgerufen 19.09.2023
+                                                 Seite 13
+
+
+
+                                                                       fi
+          Newtons Idee zum allgemeinen Vorgehen zur Berechnung von
+          Bewegungen aufgrund von Kräften:
+          A. Finde alle auf ein System wirkende Kräfte:
+
+
+                  ⃗ = F ⃗ + ... + F ⃗
+                F ges   1           n
+
+          B. Aufstellen der Grundgleichung:
+                  ⃗ = m··r ⃗
+                F ges      Bahn
+
+          C. Lösen der Di erentialgleichung (DGL) der Bewegung.
+
+          Bemerkung: DGLs sind von der Form f′(x) = a ⋅ f (x) , sie sind
+          grundlegend und oft schwer zu lösen, meist nur numerisch.
+
+         Bildquelle52
+
+          Beispiel: Galileis Fallgesetze
+          A. Finde alle auf ein System wirkende Kräfte:
+                  ⃗ =m⋅g
+                F ges
+          B. Aufstellen der Grundgleichung:
+                  ⃗ = m··r ⃗
+                F ges                =>
+                                                           ··
+                                              m ⋅ g⃗ = m ⋅ r ⃗
+          C. Lösen der Di erentialgleichung (DGL) der Bewegung.
+               ··r = g
+               r· = g ⋅ t
+               r = 12 ⋅ g ⋅ t 2
+
+
+
+
+         52 Seilziehen: https://www.grund-wissen.de/physik/_images/kraftaddition-entgegengesetzte-richtung.png,
+
+         abgerufen 20.09.2023
+                                                        Seite 14
+
+
+￼
+    ff
+    ff
+ Drittes Newtonsches Axiom: Actio und Reactio
+ In jedem Inertialsystem gilt für ein hinreichend isoliertes Paar
+ von Körpern (i und j): —> In der Natur gleichen sich Kräfte aus.
+
+         F i,⃗ j = − F j,i⃗
+         F i,⃗ j Kraft von i auf j, F j,i⃗ Kraft von j auf i.
+
+
+
+
+Quelle53, Bildquelle54
+
+ Klassische De nition der trägen Masse
+ Masse ist Maß dafür sich einer Beschleunigung zu widerset-
+ zen.
+
+
+
+
+53 Wird auch lex lex tertia, Wechselwirkungsprinzip, Gegenwirkungsprinzip, oder Reaktionsprinzip ge-
+
+nannt. Lat. Originaltext: Philosophiae naturalis principia mathematica. London, 1726: „Actioni contrariam
+semper et aequalem esse reactionem: sive corporum duorum actiones in se mutuo semper esse aequa-
+les et in partes contrarias dirigi.“ https://libcoll.mpiwg-berlin.mpg.de/libview?url=/mpiwg/online/perma-
+nent/einstein_exhibition/sources/EBU40Q4B/pageimg&start=60&pn=60&mode=imagepath, abgerufen
+19.09.2023
+54 Abbildung Kraft und Gegenkraft, https://www.grund-wissen.de/physik/_images/kraft-und-gegenkraft-
+
+beispiele-1-loesung.png, abgerufen 20.09.2023
+                                                 Seite 15
+
+
+
+  fi
+2.6.          Newtons Gravitationsgesetz
+ Kraft zwischen zwei Körpern mit den Massen m1 und m2 im Ab-
+ stand r wird verursacht von der Gravitation:
+
+             F G⃗ = − G ⋅
+                                m1 ⋅ m2         m1
+                                        = − G ⋅    ⋅ m2
+                                  r2            r2
+                                                       a
+                                                                                   3
+        Gravitationskonstante:                G = 6,67 ⋅ 10−11 m 2
+                                                                         kgs
+        Erdbeschleunigung:
+                                      mErde
+        g(rErde) = − G ⋅                      = 9,81 m2
+                                       r2              s
+ Newton hat die Fallgesetze von Galilei weiter entwickelt. Galilei
+ konnte bestimmen, mit welcher Beschleunigung ein fallender Kör-
+ per beschleunigt wird. Newton konnte die Kraft bestimmen, die
+ dafür verantwortlich ist und dass diese Kraft universell im Univer-
+ sum wirkt: Apfel fällt vom Baum, Mond fällt auf die Erde, Erde fällt
+ auf die Sonne, …
+
+ Betrachtung von Kräften
+ Einerseits wirken Kräfte direkt (Nahwirkung): Zwei Gruppen ziehen
+ am gleichen Seil. Andererseits: Wirken Kräfte über große Distan-
+ zen (Fernwirkung): Woher weiß der Mond, dass da eine Erde ist?
+
+
+                                                                                                    FMond-Erde
+                                                                                       384.400 km
+
+                                                                      FErde-Mond
+
+
+
+
+        Nahwirkung Seilkraft. Fernwirkung Erdanziehungskraft.
+        —> Lokale Beschreibung für alle Kräfte erwünscht.
+
+Bildquellen: Seilkraft55, Erdanziehungskraft56
+
+
+
+55 Seilziehen: https://www.grund-wissen.de/physik/_images/kraftaddition-entgegengesetzte-richtung.png,
+
+abgerufen 20.09.2023
+56 Erde-Mond: https://www.lei
+                          physik.de/sites/default/ les/images/5ea4341e3a83b376cdda0-
+fec37d1d441/992Erdmasse_Erde_Mond.svg, abgerufen 20.09.2023
+                                                Seite 16
+
+
+
+                                 fi
+        fi
+2.7.      Gravitationsfeld: Potentielle Energie und Potential
+ Was sollen Felder und Potentiale leisten?
+ Kräfte wirken lokal, Fernwirkung tritt jedoch in der Natur auf bei-
+ spielsweise Gravitationskraft, elektrische Kraft, magnetische Kraft.
+       —> Einführung von Feldern.
+       —> Einführung des Potentials als weitere Abstraktion.
+       —> Felder weisen jedem Punkt einen Potentialwert zu.
+       —> Bewegung erfolgt in Richtung der größten Änderung.
+
+       —> Feldstärke, Potential können lokal bestimmt werden.
+
+ Was bedeutet das? Was ist überhaupt ein Feld?
+ Wetterkarte zeigt Temperatur-, Luftdruck-, Windrichtungsfeld, …
+
+
+
+
+ • Felder ordnen jedem Punkt im Raum einen Wert zu.
+ • z.B.: Wind bläst von hohem Luftdruck zu niedrigem Luftdruck.
+
+Wetterkarte57
+
+
+
+
+57 Wetterkarte heute: https://www.dwd.de/DWD/wetter/wv_allg/europa/bilder/vhs_euro_heute.jpg, abge-
+
+rufen am 20.09.2023
+                                              Seite 17
+ Gravitationsfeld
+ In FG sind m1 und m2 symmetrisch. Annahme: eine der Massen ist
+ Quelle eines Kraftfelds, andere wird davon beein usst:
+                           m1 ⋅ m2                              mquelle
+        FG = − G ⋅                 =−m⋅                     G                   = − m ⋅ g(r)
+                             r2                                   r2
+                                                     Gravitationsfeld g(r)
+
+ Feldstärke g(r) des Gravitationsfelds ist durch Gravitationskraft auf
+ Probemasse de niert:
+                     FG
+        g(r) =
+                     m
+ Feld kann von vielen Massen an vielen Orten erzeugt werden. Lo-
+ kal wird nur eine “Probemasse” gebraucht, um die Feldstärke zu
+ messen: Fallversuche oder Gyrosensor liefern Betrag und Rich-
+ tung der Feldstärke.
+
+Anmerkung58, Quelle59
+
+ Potenzielle Energie
+ Damit können wir die potentielle Energie Epot(r) berechnen. Wir be-
+ rechnen hier die Energie, die benötigt wird, um ein Objekt mit
+ Masse m aus dem Unendlichen zu einem Punkt r zu bringen.
+                               r                                       r        mquelle
+                            ∫∞                                    ∫∞
+        Epot(r) = −                F(s) dr = − − m ⋅                       G⋅             dr
+                                                                                  r2
+                         Gmquelle                           Gmquelle
+         = m ⋅ [−                      ]r∞ = − m ⋅
+                               r                                  r
+                                                            Potenzial Φ
+
+ Minus bedeutet, dass die Probe-Masse m fällt. D.h. sie bewegt
+ sich frei in Richtung der größten Feldänderung, siehe Abbildung.
+
+
+
+58 Die Zerlegung der Kraft in eine Eigenschaft des Feldes g(r) und eine Eigenschaft des Probekörpers m
+
+ist möglich wegen der Proportionalität von schwerer Masse (Gravitation) und träger Masse (Newton 2,
+F=ma). Für andere Felder läuft die Zerlegung anders, z.B. Elektrostatisches Feld in E und Ladung e.
+59 Vogel, H.: Physik: Springer-Verlag, Berlin, Heidelberg, New York, 1977, Kap. 1.7.2
+
+                                                 Seite 18
+
+
+
+                                                       fl
+   fi
+ Potenzial
+ Auch die potentielle Energie lässt sich in einen von der Probe-
+ masse abhängigen Teil m und eine reine Feldeigenschaft aufspal-
+ ten: Potenzial genannt:
+                     Gmquelle                          r        mquelle
+                                                      ∫∞
+        Φ := −                                =            G⋅             dr
+                           r                                      r2
+
+                                     U(r)
+                                                  r
+
+
+                      P
+
+
+
+
+        Schnitt durch Gravitationspotenzial von Erde und Mond
+
+
+ Allgemein ergibt sich die Kraft F aus Epot und die Feldstärke g aus
+ dem Potential durch Gradientenbildung.
+
+         F ⃗ = − gradEpot(r)                 und           g(⃗ r ⃗ ) = − gradΦ( r ⃗ )
+
+Anmerkung60, Abbildungen61
+
+
+
+
+60 Die Bezeichnung "Potential" wurde 1836 von Carl Friedrich Gauss (1777-1855) in die Wissenschaft
+
+eingeführt.
+61 https://commons.wikimedia.org/wiki/File:Earth-moon-gravitational-potential.svg, https://commons.wi-
+
+kimedia.org/wiki/File:Earth-moon-potential-3D.png, abgerufen 22.09.2023
+                                               Seite 19
+ Gravitationspotential im Sonnensystem, XKDC
+
+
+
+
+Quelle: XKDC62
+
+
+
+
+62 Gravity Wells: Randall Munroe, XKCD: http://imgs.xkcd.com/comics/gravity_wells_large.png, abgerufen
+
+am 27.10.2019
+                                               Seite 20
+B2 Klassische Mechanik 2
+Hamiltonsches Prinzip, Lagrange Formalismus
+und Erhaltungsgrößen in der Mechanik
+
+2.8.   Hamiltonsches Prinzip
+Frage: Gibt es die Möglichkeit mechanische Systeme zu berech-
+nen, ohne die Kräfte zu kennen – mit einem ökonomischen Prinzip
+bei dem die Energien im System verwendet werden?
+Dieses “Framework” ist sehr wichtig in der gesamten Physik. Zur
+vollständigen Behandlung wäre viel Mathematik notwendig. Hier
+wird es vereinfacht vorgestellt, da es im Bereich der mechani-
+schen Simulation ebenfalls eine zentrale Rolle spielt.
+
+
+
+
+                             Seite 21
+      Hamiltonsches Prinzip
+      Bahn eines mechanischen Systems zwischen Anfangs- und
+      Endpunkt macht das Wirkungsfunktional S extremal:
+                       t
+             S = ∫t 2 L dt                Einheit [Js]
+                       1
+
+      • Das Prinzip drückt “ökonomischen” Gedanken der Natur aus
+        => Extremales S entspricht “ökonomisch bestem Weg”.
+        => Von den möglichen Wegen, wählt Natur den mit S extremal.
+
+
+
+
+      Fragen:
+      • Was ist ein Funktional? Abbildung einer Funktion auf eine Zahl.
+      • Warum “extremal” und nicht “extrem”? Weil je nach Problem,
+        Minimum, Maximum oder Sattelpunkt die Lösung ist.
+      • Was ist das L, das im Funktional auftritt? Lagrange-Funktion.
+      • Bahn eines Massepunkts wird in 4 Schritten bestimmt.
+
+     Quellen63,64, 65
+
+
+
+
+     63 “Das Hamiltonsche Prinzip der kleinsten Wirkung stellt eines der wichtigsten mathematischen Be-
+
+     schreibungsweisen f r die Dynamik physikalischer Systeme dar. Die klassische Mechanik ist daf r das
+     einfachste Beispiel. Seine Anwendungen umfassen jedoch weit gr ßere Bereiche der Physik, insbesonde-
+     re die klassische Feldtheorie (Elektrodynamik, Allgemeine Relativit tstheorie), und es spielt eine entschei-
+     dende Rolle bei der Formulierung der Quantentheorie.” https://itp.uni-frankfurt.de/~hees/publ/theo1-
+     l3.pdf, abgerufen 23.09.2023
+     64 https://de.universaldenker.org/argumentationen/298 (screen capture ), abgerufen 23.09.2023
+
+     65 Deshalb schreibt man eigentlich S[L] und nicht S(L). Um die Verwirrung zu reduzieren, wurde dies hier
+
+     weggelassen.
+                                                       Seite 22
+
+
+
+                                                                                 ü
+                                                  ä
+                                                  ö
+ü
+     2.9.       Lagrange-Funktion L (Lagrangian)66
+      Die Lagrange-Funktion eines Systems ist gegeben durch die
+      Di erenz aus kinetischer und potenzieller Energie:
+
+             L = Ekin − Epot
+      • In Systemen der klassischen Mechanik gilt die Energieerhaltung:
+
+             Ekin + Epot = const .
+             Energieerhaltung ist wichtig für Hamiltonsches Prinzip.
+      Lagrange Formalismus zur Bestimmung der Bahn
+      Umkehrung des Hamiltonschen Prinzips:
+      • Auf welcher Bahn wird S extremal? (hier Minimal).
+      • Diese Bahn beschreibt die Bewegung.
+      • Die Herleitung ist kompliziert, deshalb hier nur das Ergebnis.
+
+     Quellen67
+
+
+
+
+     66 “Die Idee besteht dabei darin, die Bewegungsgleichungen f    r dynamische Systeme als Euler-Lagrange-
+     Glei- chungen geeigneter Variationsprobleme zu beschreiben. Wir betrachten zuerst den einfachsten Fall
+     eines Teilchens, das sich in einem vorgegebenen ußeren konservativen Kraftfeld bewegt. Dabei heißt ein
+     Kraft- feld konservativ, wenn man es als Gradient eines von der Zeit unabh ngigen skalaren Potentials V
+     beschreiben kann. Am einfachsten l sst sich dieses Problem in kartesischen Koordinaten xk bzgl. eines
+     Inertialsystems beschreiben.” https://itp.uni-frankfurt.de/~hees/publ/theo1-l3.pdf, abgerufen 23.09.2023
+     67 Herleitung Euler-Lagrange, https://de.universaldenker.org/argumentationen/298, abgerufen 22.09.2023
+
+                                                     Seite 23
+
+
+
+                                                         ä
+                                            ü
+                                ä
+                   ä
+ff
+2.10. Euler-Lagrange-Gleichung68
+ Die Lagrange-Funktionen von Bahnen, die das Funktional der
+ Wirkung extremal machen, erfüllen die Euler-Lagrange-Glei-
+ chung:
+         ∂L   d ∂L
+            −      =0
+         ∂x dt ∂x·
+ Einsetzten der Ableitungen von L führt auf Di erentialgleich-
+ ung(en). Löst man die DGL, erhält man die Bahn.
+ Anwendung des Formalismus zur Bestimmung der Bahn
+ #1 Finde Ekin und Epot des Systems, Koordinaten sind beliebig.
+ #2 Aufstellen des Lagrangian L
+ #3 Ableiten von L und einsetzen in Euler-Lagrange-Gleichung.
+ #4 Lösen der resultierenden DGL.
+
+
+
+
+68 Hier behandeln wir den 1-Dimensionalen Fall. Allgemein formuliert man mit generalisierten Koordinaten
+
+(q, ·q, t), d.h. L = L (q, ·q, t) und ∂L
+                                      ∂q
+                                         − dtd ∂L
+                                               ∂ q·
+                                                    = 0, q kann eine Länge, Höhe, Winkel, … sein und auch
+mehrdimensional.
+                                                  Seite 24
+
+
+
+                                                             ff
+Beispiel 1: Massepunkt m in allgemeinem Potential V(x)
+#1 Ekin und Epot des Systems:
+
+    Ekin = 12 mv 2 = 12 m x· 2         und   Epot = V(x)
+#2 Ausstellen des Lagrangian L
+
+    L = Ekin − Epot = 12 m x· 2 − V(x)
+#3 Ableiten von L und einsetzen in Euler-Lagrange-Gleichung.
+    ∂L     ∂V(x)
+    ∂x
+       = −  ∂x
+
+    dt { ∂x }   dt { 2      }
+    d    ∂L
+          ·   = d    1
+                       m2 x· = m x··
+
+Einsetzen:
+
+                           − m x·· = 0
+    ∂L    d ∂L       ∂V(x)
+    ∂x
+       −  dt ∂x·
+                 = −  ∂x
+         ·· = − ∂V
+    => m x
+                  dx
+#4 Lösen der resultierenden DGL.
+
+    m x·· = − ∂V
+              dx
+                     = F, Das ist das 2. Newtonsche Axiom!
+Die negative Ableitung des Potentials entspricht der Kraft. Der
+Formalismus liefert also am Ende das gleiche Resultat wie New-
+ton. Warum macht man das also? —> siehe Beispiel 2
+
+
+
+
+                                 Seite 25
+ Beispiel 2: Doppelpendel
+ Doppelpendel, zwei gekoppelten Pendel, einfaches “chaotisches”
+ System, lässt sich nicht mehr mit dem Newtonschen Framework
+ lösen (Kräfte, Newton 2, DGL). Beschreibung geht nur mit Hamil-
+ ton-Lagrange. Zwei generalisierte Koordinaten, 1 und 2.
+
+
+
+
+                                                                                1
+
+
+
+
+                              1                                                     2
+
+
+                                      L1
+
+
+                                       m1
+
+                                  2
+                                           L2
+                                                m2
+
+
+
+ In CA, Games oder VFX verwendet für Simulationen oft Hamilton-
+ Lagrange, Aufgabe einer Games-Engine. Lagrangegleichung:
+
+
+
+ Damit fangen wir mit diesem Thema eigentlich erst an: Legendre-
+ Transformation der Lagrange-Funktion => Hamiltonian, generali-
+ sierte Impulse, … — aber uns soll das genügen.
+
+Quellen69, Skizze70, Simulation71, Skelett72, Anmerkung73
+
+
+
+
+69 Doppelpendel, https://de.wikipedia.org/wiki/Doppelpendel, abgerufen 23.09.2023
+
+70 Doppelpendel Schema, Von JabberWok, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?
+
+curid=1601029, abgerufen 23.09.2023
+71 Doppelpendel Simulation, Von 100Miezekatzen - Eigenes Werk, CC BY-SA 3.0, https://commons.wiki-
+
+media.org/w/index.php?curid=25184171, abgerufen 23.09.2023
+72 Skelett, https://de.m.wikipedia.org/wiki/Datei:Human_skeleton_front_no-text_no-color.svg, abgerufen
+
+23.09.2023
+73 Man nennt das Doppelpendel ein chaotisches System, weil für (fast) identische Anfangsbedingungen,
+
+nach kurzer Zeit ein völlig anderer Bewegungsablauf erfolgt, Stichwort Bifurkation.
+                                                     Seite 26
+
+
+
+                                                                 𝛳
+                                                        𝛳
+2.11. Erhaltungsgrößen in physikalischen Systemen
+Erhaltungsgrößen sind physikalische Größen, die sich mit der
+Zeit nicht verändern. Für eine Erhaltungsgröße A muss die
+Zeitableitung also Null sein.
+      dA
+         =0
+      dt
+Beispiele:
+• Energieerhaltung
+• Impulserhaltung in kräftefreien Systemen
+• Drehimpulserhaltung in kräftefreien Systemen
+• Ladungserhaltung im Elektromagnetismus
+• …
+
+Erhaltungsgrößen aus dem Lagrange-Formalismus
+• Information über gesamtes System in der Lagrange-Funktion
+  zusammen gefasst.
+• Aus der Euler-Lagrange-Gleichung lassen sich die Erhaltungs-
+  größen im System ablesen. Hängt L nicht von x ab, ist die Ablei-
+  tung von L nach x gleich Null. Dann folgt, dass der 2. Term
+                                      ∂L
+  ebenfalls Null sein muss und
+                                      ∂x·
+                                          = 0 eine Erhaltungsgröße ist,
+                     d ∂L
+  weil gelten muss
+                     dt ∂x·
+                            = 0:
+                         ∂L                   ∂L   d ∂L
+      L ≠ L(x)     =>       =0           =>      −    · =0
+                                              ⏟
+                         ∂x                   ∂x dt ∂x
+                                              =0
+
+             ∂L
+      =>           ist eine Erhaltungsgröße.
+             ∂x·
+
+
+
+
+                                   Seite 27
+ Noether-Theorem
+ Zu jeder kontinuierlichen Symmetrie eines physikalischen
+ Systems gehört eine Erhaltungsgröße.
+ Beipspiele:
+ • Homogenität in der Zeit <=> Energieerhaltung
+   (Wahl von Start- und Stop-Zeitpunkt beliebig).
+ • Homogenität des Raumes <=> Impulserhaltung
+   (kein Punkt im Raum ist besonders).
+ • Isotropie des Raumes <=> Drehimpulserhaltung
+   (keine Richtung im Raum ist besonders).
+ Emmy Noether (1882 – 1935) hat diesen Zusammenhang zwi-
+ schen Symmetrien und Erhaltungsgrößen gefunden. Sie war die
+ erste Frau in Deutschland, die sich in Mathematik habilitieren durf-
+ te.
+
+
+Quellen74,75
+
+
+
+
+74 Noether-Theorem https://de.wikipedia.org/wiki/Noether-Theorem, abgerufen 23.09.2023
+
+75 Emmy Noether war die erste Frau, die sich in Deutschland im Fach Mathematik habilitieren durfte. Die
+
+Habilitation erfolgte 1919 nach einigem Hin- und Her. https://de.wikipedia.org/wiki/Emmy_Noether, abge-
+rufen 23.09.2023
+                                                Seite 28
+2.12. Vergleich der Systeme von Newton und Hamilton-
+      Lagrange am Beispiel des Federpendels
+ Natur ist einzigartig, kann aber mit verschiedenen Systemen be-
+ schrieben werden. Sowohl die Betrachtungsweise von Newton
+ (rot) und von Hamilton-Lagrange (blau) führen zu den gleichen
+ Bahnen. Mit dem Doppelpendel wurde ein Beispiel vorgeführt,
+ das sich im Newtonschen System nicht mehr behandeln lässt.
+ Gegenüberstellung am Beispiel des Federpendels
+
+
+
+
+        ▶ h t t p s : / / h d m . c l o u d . p a n o p t o . e u / P a n o p t o / P a g e s / V i e w e r. a s p x ?
+        id=208dcb15-437b-4b12-8b3c-b08601644be8
+
+
+Quelle76
+
+
+
+
+76 https://de.wikipedia.org/wiki/Federpendel#/media/Datei:Simple_harmonic_oscillator.gif (modi                      ziert),
+abgerufen 23.09.2023
+                                                         Seite 29
+
+
+
+                                                                                         fi
+     Newton                                          Hamilton-Lagrange
+
+     Sieht die Welt in Kräften zwischen              Sehen die Welt in Feldern, die den
+     durch Raum getrennten Objekten.                 ganzen Raum einnehmen und sich
+                                                     von der Quelle zum Objekt ausbrei-
+                                                     ten.
+                                            #1
+
+
+
+
+     Kräfte bestimmen:                      #2       Lagrange-Funktion aufstellen:
+
+                                                     L = Ekin − Epot = 2 m x· 2 − 2 k x 2
+                                                                       1          1
+     Fim System = FFeder = − k x
+
+     Wenn die Kräfte im System > Null       #3       Ableitungen bilden und in Euler-
+                                    ··
+     sind, wird die Masse mit F = m x                Lagrange-Gleichung einsetzen:
+     beschleunigt:                                   Ableitungen:
+                                                     ∂L     1
+     FFeder = Fbeschl.                               ∂x
+                                                        = −22kx = −kx
+      −k x           m x··                           d ∂L                  · = m x··
+                                                     dt ∂ x·
+                                                             = dtd (2 12 m x)
+
+                                                     Einsetzen:
+
+                                                     ∂L     d ∂L
+                                                          − dt ∂ x· = 0
+                                                     ⏟
+                                                      ∂x
+                                                           ⏟
+                                                     −k x    m x··
+
+         ·· + k x = 0                                     ·· + k x = 0
+                                                     => m x
+     =>m x
+
+     Di erntialgleichung lösen:             #4       Di erentialgleichung lösen:
+
+     x (t) = . . .                                   x (t) = . . .
+
+
+
+
+                                          Seite 30
+
+
+
+ff
+ff
+

@@ -1,0 +1,6 @@
+# Folien File Index
+# Baseline file list for new-file detection in FolienEquationExtractor
+# Updated: 2026-03-31
+
+Formelsammlungen/Physik/Folien/2023_GNT_v2_20231008_Skript_Stud_B1B2 (1).pdf
+Formelsammlungen/Physik/Folien/2023_GNT_v2_20231008_Skript_Stud_B3.pdf
